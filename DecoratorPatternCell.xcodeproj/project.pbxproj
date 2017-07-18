@@ -10,6 +10,7 @@
 		146DCE411F1DB5F800671D12 /* ConsumptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146DCE3F1F1DB5F800671D12 /* ConsumptionCell.swift */; };
 		146DCE421F1DB5F800671D12 /* ConsumptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 146DCE401F1DB5F800671D12 /* ConsumptionCell.xib */; };
 		146DCE471F1DBA8500671D12 /* NormalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146DCE461F1DBA8500671D12 /* NormalView.swift */; };
+		146DCE491F1DEA0800671D12 /* AccessorytypeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146DCE481F1DEA0800671D12 /* AccessorytypeTableViewController.swift */; };
 		14AC66BC1F1DA33800798183 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AC66BB1F1DA33800798183 /* AppDelegate.swift */; };
 		14AC66BE1F1DA33800798183 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AC66BD1F1DA33800798183 /* ViewController.swift */; };
 		14AC66C11F1DA33800798183 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14AC66BF1F1DA33800798183 /* Main.storyboard */; };
@@ -45,6 +46,7 @@
 		146DCE3F1F1DB5F800671D12 /* ConsumptionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsumptionCell.swift; sourceTree = "<group>"; };
 		146DCE401F1DB5F800671D12 /* ConsumptionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConsumptionCell.xib; sourceTree = "<group>"; };
 		146DCE461F1DBA8500671D12 /* NormalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalView.swift; sourceTree = "<group>"; };
+		146DCE481F1DEA0800671D12 /* AccessorytypeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessorytypeTableViewController.swift; sourceTree = "<group>"; };
 		14AC66B81F1DA33800798183 /* DecoratorPatternCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DecoratorPatternCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14AC66BB1F1DA33800798183 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14AC66BD1F1DA33800798183 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 			children = (
 				14AC66BD1F1DA33800798183 /* ViewController.swift */,
 				14AC66EB1F1DA61E00798183 /* DetailTableViewController.swift */,
+				146DCE481F1DEA0800671D12 /* AccessorytypeTableViewController.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -381,6 +384,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				146DCE491F1DEA0800671D12 /* AccessorytypeTableViewController.swift in Sources */,
 				14AC66EC1F1DA61E00798183 /* DetailTableViewController.swift in Sources */,
 				146DCE411F1DB5F800671D12 /* ConsumptionCell.swift in Sources */,
 				14AC66EE1F1DA6ED00798183 /* UIColor+RGB.swift in Sources */,

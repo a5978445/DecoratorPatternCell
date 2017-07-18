@@ -43,8 +43,7 @@ class ViewController: UITableViewController {
                       }),
                       
                       CellModel(title: "添加辅助View", imageName: nil ,response: {[unowned self] in
-                        
-                        print("push 页面")
+                        self.navigationController?.pushViewController(AccessorytypeTableViewController(), animated: true)
                       }),
             
         ]
